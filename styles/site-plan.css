@@ -20,9 +20,9 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #F11D67 ; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #F11D67   ;
-  --nav-link-color: #F11D67 ;
+  --nav-link-color: white ;
   --nav-background-color: #8B113C;
-  --nav-hover-link-color: white;
+  --nav-hover-link-color: #8B113C;
   --nav-hover-background-color: #F11D67 ;
 }
 
@@ -177,4 +177,34 @@ nav a:hover {
 
 .main-logo{
   width: 50%;
+}
+
+.waterfall-pic{
+width: 30%;
+height: auto;
+}
+
+.wa-sunset{
+  width: 30%;
+  height: auto;
+}
+
+.gus-pic{
+  width: 100%;
+  height: auto;
+ 
+}
+
+.mission-pic{
+  width: 50%;
+  height: auto;
+}
+
+.classy-pic{
+  width: 50%;
+  height: auto;
+}
+.laser-tag-pic{
+  width: 100%;
+  height:auto;
 }
