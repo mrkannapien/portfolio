@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #F11D67   ;
+    --secondary-color: #8B113C ;
+    --accent1-color: #AD154A;
+    --accent2-color: white;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "IM Fell French Canon SC";
+    --paragraph-font: Lato, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #8B113C ;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #F11D67 ; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #F11D67   ;
+    --nav-link-color: white ;
+    --nav-background-color: #8B113C;
+    --nav-hover-link-color: #8B113C;
+    --nav-hover-background-color: #F11D67 ;
+}
+
+header {
+    background-color:white;
+    color: #8B113C;
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 100%;
+}
+
+nav {
+    color: #8B113C;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav a{
+    text-align: center;
+    color:#8B113C ;
+    text-decoration: none;
+    padding:35px;
+}
+nav a:hover {
+    background-color:  #F11D67;
+    color: black;
+}
+
+.logo{
+    width:120px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+body{
+    background-color:#8B113C  ;
+    margin:0 auto;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+}
+
+#contact-me{
+    max-width: 100%;
+    height: auto;
+    border: 50%;
+    color: white;
+    padding-left: 20px;
+    
+   
+}
+
+h2{
+    color: #F11D67;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.waterfall-img{
+    padding-top:25px;
+}
+#hero-banner{
+    font-family: var(--heading-font);
+    color:#F11D67 ;
+
+}
+#hero-msg{
+    padding-left:1.9%;
+    color: white;
+    font-family: var(--paragraph-font);
+    
+}
+
+footer{
+    background-color:white ;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    color:#F11D67;
+    text-decoration: none;
+}
+footer a:hover{
+    color:black;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+footer p {
+    font-size: 1.5em;
+}    
