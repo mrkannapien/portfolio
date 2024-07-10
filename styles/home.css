@@ -77,7 +77,7 @@ body{
 }
 
 h2{
-    color: #F11D67;
+    color: white;
 }
 img{
     max-width: 100%;
@@ -89,8 +89,6 @@ img{
 }
 #hero-banner{
     font-family: var(--heading-font);
-    color:#F11D67 ;
-
 }
 #hero-msg{
     padding-left:1.9%;
