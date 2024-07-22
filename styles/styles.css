@@ -27,7 +27,7 @@ header {
     color: #8B113C;
     display: grid;
     grid-template-columns: 150px auto;
-    width: 100%;
+    width: auto;
 }
 
 nav {
@@ -57,9 +57,32 @@ nav a:hover {
     align-self: center;
 }
 
+html, body{
+    margin:0;
+    padding: 0;
+}
+
 body{
     background-color:#8B113C  ;
     margin:0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#content > footer{
+    margin-top: auto;
+}
+
+#content-aboutme{
+    margin-top:auto;
+    
+    
 }
 
 .home-grid{
@@ -73,20 +96,23 @@ body{
     color: white;
     padding-left: 20px;
     
-   
 }
 
 h2{
     color: white;
 }
-img{
+.tree-wa{
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
+
 
 .waterfall-img{
     padding-top:25px;
+    width: 100%;
+    margin:0 auto;
 }
+
 #hero-banner{
     font-family: var(--heading-font);
 }
@@ -97,12 +123,49 @@ img{
     
 }
 
+
+/* About Page */
+
+.bg-image {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.gus-img{
+    width: 150%;
+    height: auto;
+}
+.lasertag{
+    width: 100%;
+}
+  
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: 10px solid #F11D67;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+  }
+
 footer{
     background-color:white ;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: auto;
+   
 }
 
 footer a{
@@ -118,4 +181,4 @@ footer p a:hover {
 }    
 footer p {
     font-size: 1.5em;
-}    
+}
