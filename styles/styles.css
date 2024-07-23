@@ -160,6 +160,10 @@ h2{
 
   /* Experience */
 
+  .experience-body{
+    background-color: #F11D67;
+  }
+
   .experience-grid{
     display: grid;
     grid-template-columns:  1fr 10px  1fr ;
@@ -191,7 +195,7 @@ h2{
  }
 
 .text-mission{
-    background-color: #F11D67;
+    background-color: #8B113C;
    background-size:300px 100px;
     color: white;
     font-size: 15px;
@@ -231,7 +235,7 @@ h2{
   }
 
 .text-boat{
-    background-color: #F11D67;
+    background-color:#8B113C ;
     color: white;
     font-size: 20px;
     position:absolute;
