@@ -158,7 +158,91 @@ h2{
     text-align: center;
   }
 
+  /* Experience */
 
+  .experience-grid{
+    display: grid;
+    grid-template-columns:  1fr 10px  1fr ;
+    grid-template-rows: 100px 1fr 100px;
+  
+  }
+
+  .experience-title{
+    color: white;
+    padding-left: 600px;
+    margin-top: 5px;
+    
+}
+  .experience-container{
+    position:relative;
+    width: 50%;
+    text-align: center;
+  }
+
+  .missionarypic{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top:75px;
+    padding-left:450px;
+    margin-top: -26px;
+    
+ }
+
+.text-mission{
+    background-color: #F11D67;
+   background-size:300px 100px;
+    color: white;
+    font-size: 15px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-left: -200px;
+    height: auto;
+    margin-top: -30px;
+    
+    
+
+
+}
+
+.skills-title{
+    color:white;
+    grid-row:1/2;
+    text-align: center;
+    padding-left: 300px;
+    
+}
+
+.skills-container{
+    position:relative;
+    width: 50%;
+    padding-left: 100px;
+  }
+
+  .boatbois{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 310px;
+    
+  }
+
+.text-boat{
+    background-color: #F11D67;
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
 
 footer{
     background-color:white ;
