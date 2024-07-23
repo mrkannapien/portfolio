@@ -27,13 +27,14 @@ header {
     color: #8B113C;
     display: grid;
     grid-template-columns: 150px auto;
-    width: auto;
+
 }
 
 nav {
     color: #8B113C;
     display: flex;
     justify-content: space-around;
+    width: auto;
     
 }
 
@@ -134,7 +135,7 @@ h2{
   }
 
 .gus-img{
-    width: 150%;
+    width: 100%;
     height: auto;
 }
 .lasertag{
@@ -173,7 +174,7 @@ h2{
 
   .experience-title{
     color: white;
-    padding-left: 600px;
+    padding-left: 400px;
     margin-top: 5px;
     
 }
@@ -189,7 +190,7 @@ h2{
     height: auto;
     text-align: center;
     padding-top:75px;
-    padding-left:450px;
+    padding-left:320px;
     margin-top: -26px;
     
  }
@@ -198,7 +199,7 @@ h2{
     background-color: #8B113C;
    background-size:300px 100px;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -230,7 +231,7 @@ h2{
     display: block;
     width: 100%;
     height: auto;
-    padding-left: 310px;
+    padding-left: 220px;
     
   }
 
